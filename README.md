@@ -29,7 +29,7 @@ Miter.launch({
 
 ## Contributing
 
-Miter is a relatively young framework, and miter-socket-service is newer still. there are many ways that it can be improved. If you notice a bug, or would like to request a feature, feel free to [create an issue][create_issue]. Better yet, you can [fork the project][fork_project] and submit a pull request with the added feature.
+Miter is a relatively young framework, and `miter-socket-service` is newer still. there are many ways that it can be improved. If you notice a bug, or would like to request a feature, feel free to [create an issue][create_issue]. Better yet, you can [fork the project][fork_project] and submit a pull request with the added feature.
 
 ## Changelog
 
