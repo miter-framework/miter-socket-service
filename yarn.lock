@@ -1165,9 +1165,9 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-miter@^0.5.8:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/miter/-/miter-0.5.8.tgz#70b2acd574dfbdcf359b1b1bbda983b6b831bab1"
+miter@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/miter/-/miter-0.5.9.tgz#f5e12f937d76b16daf557334dcb7bc53e15f54e0"
   dependencies:
     "@types/body-parser" "^0.0.33"
     "@types/cli-color" "^0.3.29"

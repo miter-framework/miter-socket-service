@@ -23,7 +23,7 @@
         "@types/socket.io": "^1.4.31",
         "chai": "^3.5.0",
         "chai-as-promised": "^6.0.0",
-        "miter": "^0.5.8",
+        "miter": "^0.5.9",
         "mocha": "^3.2.0",
         "mocha-typescript": "^1.0.23",
         "sinon": "^2.1.0",
@@ -35,7 +35,7 @@
     },
     "dependencies": {},
     "peerDependencies": {
-        "miter": "^0.5.8",
+        "miter": "^0.5.9",
         "socket.io": "^2.0.4"
     },
     "keywords": [
