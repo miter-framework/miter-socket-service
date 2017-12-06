@@ -6,6 +6,7 @@
 ### Features
 
 * **metadata:** add '.socket' to Miter.launch options
+* **socket-service:** add methods to handle events, connect, and disconnect
 
 
 

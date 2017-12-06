@@ -138,11 +138,22 @@
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/@types/sinon/-/sinon-2.3.7.tgz#e92c2fed3297eae078d78d1da032b26788b4af86"
 
-"@types/socket.io@^1.4.31":
+"@types/socket.io-client@*":
+  version "1.4.32"
+  resolved "https://registry.yarnpkg.com/@types/socket.io-client/-/socket.io-client-1.4.32.tgz#988a65a0386c274b1c22a55377fab6a30789ac14"
+
+"@types/socket.io@*", "@types/socket.io@^1.4.31":
   version "1.4.31"
   resolved "https://registry.yarnpkg.com/@types/socket.io/-/socket.io-1.4.31.tgz#7a928518a35516fccd90431f94538ed3fddaba19"
   dependencies:
     "@types/node" "*"
+
+"@types/socketio-wildcard@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/socketio-wildcard/-/socketio-wildcard-2.0.0.tgz#44a214380e89fa9d9ccd55333c6c1dcc1f828f8f"
+  dependencies:
+    "@types/socket.io" "*"
+    "@types/socket.io-client" "*"
 
 "@types/validator@*":
   version "6.3.0"
@@ -1680,6 +1691,10 @@ socket.io@^2.0.4:
     socket.io-adapter "~1.1.0"
     socket.io-client "2.0.4"
     socket.io-parser "~3.1.1"
+
+socketio-wildcard@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/socketio-wildcard/-/socketio-wildcard-2.0.0.tgz#2466e832276b19163563bee772388747f912475b"
 
 source-map-support@^0.4.0:
   version "0.4.18"

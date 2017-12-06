@@ -33,7 +33,10 @@
         "tslint": "^4.5.1",
         "typescript": "2.3.4"
     },
-    "dependencies": {},
+    "dependencies": {
+        "@types/socketio-wildcard": "^2.0.0",
+        "socketio-wildcard": "^2.0.0"
+    },
     "peerDependencies": {
         "miter": "^0.5.9",
         "socket.io": "^2.0.4"

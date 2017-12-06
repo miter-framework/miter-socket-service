@@ -12,17 +12,17 @@ Install `miter-socket-service` and `socket.io` using NPM.
 npm install --save miter-socket-service socket.io
 ```
 
-Add MiterSocketService to the list of services used when launching your Miter server.
+Add SocketService to the list of services used when launching your Miter server.
 
 ```typescript
-import { MiterSocketService } from 'miter-socket-service';
+import { SocketService } from 'miter-socket-service';
 
 Miter.launch({
     //...
     
     services: [
         //...
-        MiterSocketService
+        SocketService
     ]
 });
 ```
