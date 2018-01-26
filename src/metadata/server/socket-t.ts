@@ -4,6 +4,12 @@ export interface SocketMetadataT {
     enabled?: boolean,
     
     /**
+     * Should the socket service expose the 'watch-resources' packet?
+     * @default true
+     */
+    useResources?: boolean,
+    
+    /**
      * The path to server the client file to
      * @default '/socket.io'
      */

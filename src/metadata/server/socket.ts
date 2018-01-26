@@ -26,4 +26,9 @@ export class SocketMetadata {
         if (!this._meta || typeof this._meta.enabled === 'undefined') return true;
         return !!this._meta.enabled;
     }
+    
+    get useResources() {
+        if (!this._meta || typeof this._meta.useResources === 'undefined') return true;
+        return !!this._meta.useResources;
+    }
 }
