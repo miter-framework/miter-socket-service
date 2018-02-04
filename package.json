@@ -1,6 +1,6 @@
 {
     "name": "miter-socket-service",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A Miter plugin to implement Web Sockets using socket.io",
     "scripts": {
         "test": "bash ./scripts/test.sh",
