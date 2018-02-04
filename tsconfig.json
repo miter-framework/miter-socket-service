@@ -18,7 +18,6 @@
         "pretty": true,
         "declaration": true,
         "types": [
-            "express",
             "node"
         ]
     },

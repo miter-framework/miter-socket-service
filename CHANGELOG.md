@@ -1,5 +1,14 @@
 
 
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/miter-framework/miter-socket-service/compare/0.1.2...0.1.3) (2018-02-03)
+
+### Bug Fixes
+
+* **socket-service:** treat undefined the same as false for canViewResource results
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/miter-framework/miter-socket-service/compare/0.1.0...0.1.2) (2018-02-03)
 

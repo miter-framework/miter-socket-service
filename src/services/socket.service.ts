@@ -236,6 +236,7 @@ export class SocketService {
             }
             else {
                 let result = await resourceProvider.canWatchResource(namespace, key, socket);
+                if (typeof result === 'undefined') result = false;
                 if ((typeof result === 'boolean' && !result) || (Array.isArray(result) && result.indexOf(room) === -1)) {
                     this.logger.verbose(`Client tried to enter socket room but was rejected: '${room}'`);
                     wasRestricted = true;
