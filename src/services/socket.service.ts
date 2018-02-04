@@ -100,6 +100,7 @@ export class SocketService {
         this.logger.verbose('Connection handlers ran successfully. socket.id:', socket.id);
         
         socket.on('*', (packet: any) => {
+            if (!packet || !packet.data || !packet.data.length) return;
             let name = <string>packet.data[0];
             this.onEvent(socket, name, packet.data.slice(1));
         });
