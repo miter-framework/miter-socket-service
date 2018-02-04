@@ -1,5 +1,24 @@
 
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/miter-framework/miter-socket-service/compare/0.1.0...0.1.1) (2018-02-03)
+
+### Bug Fixes
+
+* **socket-service:** ignore packets that have no data or whose data is not an array
+
+
+
+<a name="0.1.0"></a>
+## [0.1.0](https://github.com/miter-framework/miter-socket-service/compare/0.0.2...0.1.0) (2018-01-26)
+
+### Features
+
+* **metadata:** add 'useResources' to socket options
+* **socket-service:** add automated events to manage resource-based rooms, enabled by default
+
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/miter-framework/miter-socket-service/compare/0.0.1...0.0.2) (2017-12-05)
 
